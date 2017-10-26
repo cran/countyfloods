@@ -150,6 +150,10 @@ head(va_county_output)
 ## ----fig.height = 6, fig.width = 8, fig.align = "center", message = FALSE----
 time_series_plot(va_county_output[va_county_output$county == "halifax", ])
 
+## ----eval = FALSE--------------------------------------------------------
+#    tx <- time_series_flood(state = "Texas", start_date = "2017-08-24", end_date = "2017-09-10", filter_data = FALSE)
+#    time_series_map(tx[[1]])
+
 ## ----fig.width = 4.25, fig.height = 3.5, fig.align = "center"------------
 ggplot(va_gage_output, aes(x = DA, y = Q2)) + 
   geom_point(alpha = 0.5) + 

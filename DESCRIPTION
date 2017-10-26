@@ -1,7 +1,7 @@
 Package: countyfloods
 Type: Package
 Title: Quantify United States County-Level Flood Measurements
-Version: 0.0.2
+Version: 0.1.0
 Authors@R: c(person("Rod", "Lammers", email = "rodlammers@gmail.com",
   role = c("aut", "cre")),
   person("Brooke", "Anderson", email = "brooke.anderson@colostate.edu",
@@ -27,9 +27,9 @@ Suggests: testthat, knitr, rmarkdown, hurricaneexposure, scales
 VignetteBuilder: knitr
 RoxygenNote: 6.0.1
 NeedsCompilation: no
-Packaged: 2017-05-20 14:27:31 UTC; rlammers
+Packaged: 2017-10-26 00:34:08 UTC; rlammers
 Author: Rod Lammers [aut, cre],
   Brooke Anderson [aut]
 Maintainer: Rod Lammers <rodlammers@gmail.com>
 Repository: CRAN
-Date/Publication: 2017-05-20 23:11:52 UTC
+Date/Publication: 2017-10-26 03:22:55 UTC
